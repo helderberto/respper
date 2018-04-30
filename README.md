@@ -2,7 +2,7 @@
 
 A simple response wrapper, best used in NodeJS.
 
-[![License][license-badge]][license-url]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Requirements
 
