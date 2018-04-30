@@ -1,4 +1,4 @@
-# 📦 Respper
+# 📡 Respper
 
 A simple response wrapper, best used in NodeJS.
 
