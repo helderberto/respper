@@ -2,6 +2,8 @@
 
 A simple response wrapper, best used in NodeJS.
 
+[![License][license-badge]][license-url]
+
 ## Requirements
 
 * [NodeJS](https://nodejs.org/en/).
@@ -26,9 +28,14 @@ router.get('/', (req, res) => {
 
 Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
+# Change Log
 
-We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/helderburato/respper/tags).
+This project adheres to [Semantic Versioning](https://semver.org/).
+Every release, along with the migration instructions, is documented on the Github [Releases](https://github.com/helderburato/respper/releases) page.
+
+# Author
+
+[Helder Burato](https://twitter.com/helderburato)
 
 ## License
 
