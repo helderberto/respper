@@ -27,9 +27,10 @@ class Respper {
   static handleResponse(response, options) {
     const { status, data } = options;
     const message = Respper.getMessage(options.message);
+    const DELETED = '1';
 
     if (!data) return response.status(status).send({ message: message });
-    if (data == '1') return response.sendStatus(status);
+    if (data == DELETED) return response.sendStatus(status);
     return response.status(status).send(data);
   }
 
