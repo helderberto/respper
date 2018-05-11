@@ -26,17 +26,17 @@ router.get('/', (req, res) => {
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-# Change Log
+## Changelog
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 Every release, along with the migration instructions, is documented on the Github [Releases](https://github.com/helderburato/respper/releases) page.
 
-# Author
+## Author
 
 [Helder Burato](https://twitter.com/helderburato)
 
 ## License
 
-[MIT License](./LICENSE) © Helder Burato
+[MIT License](LICENSE) © Helder Burato
