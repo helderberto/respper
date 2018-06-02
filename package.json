@@ -4,7 +4,14 @@
   "description": "A simple response wrapper, best used in NodeJS.",
   "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helderburato.com.br)",
   "homepage": "https://github.com/helderburato/respper#readme",
-  "main": "index.js",
+  "main": "dist/respper.js",
+  "umd:main": "dist/respper.umd.js",
+  "module": "dist/respper.m.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
   "files": [
     "src"
   ],
@@ -22,5 +29,8 @@
   ],
   "bugs": {
     "url": "https://github.com/helderburato/respper/issues"
+  },
+  "devDependencies": {
+    "microbundle": "0.4.4"
   }
 }

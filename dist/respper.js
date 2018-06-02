@@ -1,0 +1,2 @@
+var s=function(){};s.wrapper=function(e,a){return a.then(function(a){a||s.handleResponse(e,{status:404,send:{message:"Dados não informados."},data:a}),s.handleResponse(e,{status:200,data:a})}).catch(function(a){s.handleResponse(e,{status:400,message:a.message})})},s.handleResponse=function(e,a){var n=a.status,t=a.data,o=s.getMessage(a.message);return t?"1"==t?e.sendStatus(n):e.status(n).send(t):e.status(n).send({message:o})},s.getMessage=function(s){return s||"Dados não informados."},module.exports=s;
+//# sourceMappingURL=respper.js.map
